@@ -159,13 +159,13 @@ ssl_cert: /path/to/your/ssl.pem
 # (be sure to create the casserver database in MySQL beforehand,
 #   i.e. `mysqladmin -u root create casserver`)
 
-database:
-  adapter: mysql
-  database: casserver
-  username: root
-  password: 
-  host: localhost
-  reconnect: true
+#database:
+ # adapter: postgresql
+ # database: casserver
+ # username: root
+ # password: 
+#  host: localhost
+ # reconnect: true
 
 # IMPORTANT! By default, the server can handle up to ~5 concurrent requests
 # (without queuing). You can increase this by setting the database connection
